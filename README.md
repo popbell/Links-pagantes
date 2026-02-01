@@ -8,34 +8,36 @@
   <style>
     body {
       font-family: 'Montserrat', sans-serif;
-      background-color: #111111; /* MUDANÇA: Fundo Preto */
-      color: #f1f1f1; /* MUDANÇA: Texto quase branco para ler no preto */
+      background-color: #000000; /* Fundo Preto */
+      color: #FFD700; /* Texto Dourado */
       margin: 0;
       padding: 0;
       text-align: center;
     }
     header {
-      /* MUDANÇA: Degradê de Vermelho Escuro para Vermelho Vivo */
-      background: linear-gradient(135deg, #8b0000, #ff0000);
+      /* Gradiente Vermelho e Preto */
+      background: linear-gradient(135deg, #8B0000, #330000); 
       padding: 20px;
-      color: #fff;
-      border-bottom: 3px solid #D4AF37; /* MUDANÇA: Borda Dourada */
+      color: #FFD700;
+      border-bottom: 2px solid #FFD700;
     }
     header img {
-      max-width: 100%;
+      max-width: 150px; /* Ajustei para ficar um tamanho bom de logo */
       height: auto;
       margin-bottom: 10px;
-      border-radius: 10px; /* Opcional: arredondar a imagem */
+      border-radius: 10px;
+      border: 2px solid #FFD700;
     }
     header h1 {
       font-size: 32px;
       margin: 10px 0 5px;
-      color: #fff;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 4px #000;
     }
     header p {
       font-size: 16px;
       margin: 0;
-      color: #ffd700; /* MUDANÇA: Texto subtítulo em Dourado */
+      color: #fff;
     }
     .link-button {
       display: block;
@@ -43,35 +45,30 @@
       width: 90%;
       max-width: 350px;
       padding: 15px 20px;
-      
-      /* MUDANÇA: Botão Dourado */
-      background-color: #D4AF37; 
-      
-      /* MUDANÇA: Texto Preto (para contraste no dourado) */
-      color: #000000; 
-      
+      background-color: #8B0000; /* Fundo do botão Vermelho */
+      color: #FFD700; /* Texto do botão Dourado */
       text-decoration: none;
-      border-radius: 12px;
+      border-radius: 50px; /* Botões arredondados */
+      border: 2px solid #FFD700; /* Borda Dourada */
       font-size: 18px;
-      font-weight: 700; /* Negrito mais forte */
-      box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3); /* Sombra dourada */
-      transition: all 0.3s;
-      border: 1px solid #b59021;
+      font-weight: 700;
+      box-shadow: 0 4px 15px rgba(139, 0, 0, 0.4); /* Sombra vermelha */
+      transition: transform 0.2s, background-color 0.3s;
     }
     .link-button:hover {
-      /* MUDANÇA: Ao passar o mouse, fica Vermelho com texto branco */
-      background-color: #ff0000;
-      color: #fff;
-      transform: scale(1.02); /* Efeito de crescer um pouquinho */
+      background-color: #FFD700; /* Fica dourado ao passar o mouse */
+      color: #000000; /* Texto fica preto */
+      transform: scale(1.02);
     }
     .social-buttons {
       margin-top: 30px;
+      margin-bottom: 30px;
     }
     .social-buttons a {
       margin: 10px;
       display: inline-block;
       padding: 12px 18px;
-      background-color: #25d366; /* WhatsApp mantido verde (padrão) */
+      background-color: #25d366;
       color: #fff;
       border-radius: 8px;
       text-decoration: none;
@@ -79,22 +76,25 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
     .social-buttons a.telegram {
-      background-color: #0088cc; /* Telegram mantido azul (padrão) */
+      background-color: #0088cc;
     }
     footer {
       margin-top: 50px;
       padding: 20px;
       font-size: 14px;
-      color: #888; /* Cinza para o rodapé */
+      color: #888;
+      border-top: 1px solid #333;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="https://github.com/popbell/Links-pagantes.git/Poppop-header.jpg" alt="Poppop Header" />
+    <img src="https://via.placeholder.com/150/000000/FFD700?text=LOGO" alt="Logo Plataformas Pagantes" />
+    
     <h1>Plataformas Pagantes</h1>
-    <p>Escolha a sua plataforma e comece a jogar agora!</p>
+    <p>Escolha a sua plataforma e comece a lucrar agora!</p>
   </header>
+
   <a class="link-button" href="https://11popluz.com/?pid=3350470407" target="_blank">POPLUZ</a>
   <a class="link-button" href="https://11popvai.com/?pid=3859482050" target="_blank">POPVAI</a>
   <a class="link-button" href="https://22popn1.com/?pid=3615115676" target="_blank">POPN1</a>
@@ -121,7 +121,7 @@
   </div>
 
   <footer>
-    Criado com carinho para a líder PopBell — Todos os direitos reservados.
+    Criado com carinho para Plataformas Pagantes — Todos os direitos reservados.
   </footer>
 </body>
 </html>
