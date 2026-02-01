@@ -1,1 +1,127 @@
-# Links-pagantes
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plataformas Pagantes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #111111; /* MUDANÇA: Fundo Preto */
+      color: #f1f1f1; /* MUDANÇA: Texto quase branco para ler no preto */
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      /* MUDANÇA: Degradê de Vermelho Escuro para Vermelho Vivo */
+      background: linear-gradient(135deg, #8b0000, #ff0000);
+      padding: 20px;
+      color: #fff;
+      border-bottom: 3px solid #D4AF37; /* MUDANÇA: Borda Dourada */
+    }
+    header img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      border-radius: 10px; /* Opcional: arredondar a imagem */
+    }
+    header h1 {
+      font-size: 32px;
+      margin: 10px 0 5px;
+      color: #fff;
+    }
+    header p {
+      font-size: 16px;
+      margin: 0;
+      color: #ffd700; /* MUDANÇA: Texto subtítulo em Dourado */
+    }
+    .link-button {
+      display: block;
+      margin: 15px auto;
+      width: 90%;
+      max-width: 350px;
+      padding: 15px 20px;
+      
+      /* MUDANÇA: Botão Dourado */
+      background-color: #D4AF37; 
+      
+      /* MUDANÇA: Texto Preto (para contraste no dourado) */
+      color: #000000; 
+      
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: 700; /* Negrito mais forte */
+      box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3); /* Sombra dourada */
+      transition: all 0.3s;
+      border: 1px solid #b59021;
+    }
+    .link-button:hover {
+      /* MUDANÇA: Ao passar o mouse, fica Vermelho com texto branco */
+      background-color: #ff0000;
+      color: #fff;
+      transform: scale(1.02); /* Efeito de crescer um pouquinho */
+    }
+    .social-buttons {
+      margin-top: 30px;
+    }
+    .social-buttons a {
+      margin: 10px;
+      display: inline-block;
+      padding: 12px 18px;
+      background-color: #25d366; /* WhatsApp mantido verde (padrão) */
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    .social-buttons a.telegram {
+      background-color: #0088cc; /* Telegram mantido azul (padrão) */
+    }
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      font-size: 14px;
+      color: #888; /* Cinza para o rodapé */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://popbell.github.io/links-popbell/Poppop-header.jpg" alt="Poppop Header" />
+    <h1>Plataformas Pagantes</h1>
+    <p>Escolha a sua plataforma e comece a jogar agora!</p>
+  </header>
+  <a class="link-button" href="https://11popluz.com/?pid=3350470407" target="_blank">POPLUZ</a>
+  <a class="link-button" href="https://11popvai.com/?pid=3859482050" target="_blank">POPVAI</a>
+  <a class="link-button" href="https://22popn1.com/?pid=3615115676" target="_blank">POPN1</a>
+  <a class="link-button" href="https://1popbis.com/?pid=3414741435" target="_blank">POPBIS</a>
+  <a class="link-button" href="https://3popflu.com/?pid=3375891286" target="_blank">POPFLU</a>
+  <a class="link-button" href="https://q6h7ps.com/?pid=2724394905" target="_blank">POPBOA</a>
+  <a class="link-button" href="https://popdezoz.com/?pid=2290538044" target="_blank">POPDEZ</a>
+  <a class="link-button" href="https://www.popceu22.com/#/register?invitationCode=25611105094" target="_blank">POPCEU</a>
+  <a class="link-button" href="https://357g7q.com/?pid=1829522081" target="_blank">POPMEL</a>
+  <a class="link-button" href="https://www.popben.com/#/register?invitationCode=66456102888" target="_blank">POPBEM</a>
+  <a class="link-button" href="https://www.poplua2.com/#/register?invitationCode=12744102929" target="_blank">POPLUA</a>
+  <a class="link-button" href="https://popwb.com/?pid=1757290402" target="_blank">POPWB</a>
+  <a class="link-button" href="https://www.popbra-4.com/#/register?invitationCode=UJfyz1435244" target="_blank">POPBRA</a>
+  <a class="link-button" href="https://www.pop888-0.com/#/register?invitationCode=78335394387" target="_blank">POP888</a>
+  <a class="link-button" href="https://popkkk.com?code=60547" target="_blank">POPKKK</a>
+  <a class="link-button" href="https://www.pop55577.com/#/register?invitationCode=31143107554" target="_blank">POP555</a>
+  <a class="link-button" href="https://www.poppg33.com/#/register?invitationCode=4632368857" target="_blank">POPPG</a>
+  <a class="link-button" href="https://www.pop67877.com/#/register?invitationCode=1245815894" target="_blank">POP678</a>
+  <a class="link-button" href="https://g26bet.com/?id=65983572&currency=BRL&type=2" target="_blank">26BET</a>
+
+  <div class="social-buttons">
+    <a href="https://wa.me/5573991657872" target="_blank">WhatsApp</a>
+    <a href="https://t.me/Rebecafp" target="_blank" class="telegram">Telegram</a>
+  </div>
+
+  <footer>
+    Criado com carinho para a líder PopBell — Todos os direitos reservados.
+  </footer>
+</body>
+</html>
