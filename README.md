@@ -91,7 +91,7 @@
 </head>
 <body>
   <header>
-    <img src="https://popbell.github.io/links-popbell/Poppop-header.jpg" alt="Poppop Header" />
+    <img src="https://github.com/popbell/Links-pagantes.git/Poppop-header.jpg" alt="Poppop Header" />
     <h1>Plataformas Pagantes</h1>
     <p>Escolha a sua plataforma e comece a jogar agora!</p>
   </header>
