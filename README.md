@@ -121,7 +121,7 @@
   </div>
 
   <footer>
-    Criado com carinho para Plataformas Pagantes — Todos os direitos reservados.
+    Criado com carinho para a líder PopBell— Todos os direitos reservados.
   </footer>
 </body>
 </html>
